@@ -2,7 +2,7 @@ import ccxt
 import pandas as pd
 import os
 
-# get data for specific timeframe # each line ia a candle in the resective timeframe, only 1000 requests in one
+# get data for specific timeframe # each line ia a candle in the respective timeframe, only 1000 requests in one
 # if more data is needed, load in a loop
 # %TODO load more data in loop for cross cycle analysis
 def fetch_and_save(symbol = "BTC/USDT", timeframe="1h", since="2021-01-01T00:00:00Z"):
